@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<!-- favicon -->
+	<link rel="icon" href="Imagens/Luffy2.png">
+	<title>Contato</title>
+	<!-- SEO Importante -->
+	<meta name ="description" content ="Aprenda html5 e css3 de forma simples e prática">
+	<!-- A linha abaixo "garante" o layout responsivo nos diversos dispositivos mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<!-- estrutura principal -->
+	<div id="main">
+	<!-- Cabeçalho -->
+	<header>
+		<section style="text-align:center">
+		<img src="imagens/banner.png" alt="One Piece">
+		</section>
+	</header>
+	<!-- menu -->
+	<nav class="Menu"><!-- Classe usada para fixar o menu no JS -->
+		<!-- &#9776 desenhando 3 linhas horizontais -->
+				<a href="#" class="Mobile">&#9776 Menu</a>
+		<ul>
+			<li><a href="index.html">Thousand Sunny</a></li>
+			<li><a href="arco.html">Arcos</a></li>
+			<li><a href="#" class="Detalhes">One Piece</a>
+				<ul>
+				<li><a href="conteudo/html5.html">Eiichiro Oda</a></li>
+				<li><a href="https://onepiece-ex.com.br/episodios/" target="_blank">Anime</a></li>
+				<li><a href="https://onepiece-ex.com.br/mangas/" target="_blank">Mangas</a></li>
+				</ul>
+			</li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+
+<br><br><br>
+
+
+<div id="contato">
+		<h1 style="color: #ffffff;">Contato</h1>
+		<form action="formulario.php" method="POST">
+			<input type="text" name="nome" placeholder="nome">
+			<input type="text" name="name" placeholder="email">
+			<textarea name="mensagem" placeholder="mensagem"></textarea>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+
+
+
+
+
+
+
+<section>
+	<br>
+	<br>
+	<a href="https://github.com/Kvyzikamemo" target="_blank"><img src="imagens/git.png" alt="github" width="128" heigth="128">
+</img>
+</section>
+
+
+
+
+
+
+
+	<footer>
+		<p>©2018 - Gustavo Orlando</p>
+	</footer>
+	
+	</div>
+<script src="js/menuresponsivo.js "></script>	
+<script src="js/fixamenu.js "></script>
+<script src="js/removeclick.js "></script>
+</body>
+</html>
